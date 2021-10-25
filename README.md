@@ -1,3 +1,7 @@
 ## Site Garagem Bikes
 
-Langing page mostrando as informações da empresa.
+Landing page mostrando as informações da empresa.
+
+-Serviços
+-Produtos
+-Quem Somos
