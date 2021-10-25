@@ -1,0 +1,380 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+ul{
+  
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+.btn{
+  display: inline;
+  background-color: #00a2ff;
+  color: #fff;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+}
+.titulo h2{
+  color: #264390;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.titulo span{
+  font-size: 1.6rem;
+}
+
+.center{
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.top-header{
+  background-color: #fff;
+  padding: 15px 10px;
+}
+.btn-menu{
+  cursor: pointer;
+  padding: 25px;
+}
+.linha{
+  width: 30px;
+  height: 5px;
+  background-color: #272727;
+  margin: 3px auto;
+}
+.logo{
+  width: 120px;
+  margin: 0 auto;
+}
+.logo img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu{
+  text-align: center;
+  display: block;
+  background-color: #eff1f7;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s;
+  border-radius: 8px;
+}
+.menu-visivel{
+  height: 225px;
+  padding: 10px 0;
+}
+.menu a{
+  color: #231F20;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.redes-sociais{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.redes-sociais a{
+  background-color: #231F20;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #6a7fc0;
+  margin: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes-sociais a span{
+  font-size: 1.2rem;
+}
+
+.banner{
+  background-color: #1c3780;
+  color: #fff;
+  padding: 45px 0;
+}
+.banner h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+.banner h1 span{
+  font-size: .75rem;
+  background-color: #fff;
+  color: #1c3780;
+  padding: 8px 0;
+}
+.banner .conteudo{
+  width: 210px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .btn{
+  background-color: #272727;
+}
+
+.servicos .titulo{
+  margin-bottom: 15px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  margin: 10px auto;
+  border: 1px solid #1c3780;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+.card h3{
+  background-color: #1c3780;
+  color: #e4ebff;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.card p{
+  padding: 12px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #646464;
+}
+.card .btn{
+  margin: 15px 10px;
+  background-color: #fff;
+  border: 2px solid #445ca3;
+  color: #445ca3;
+  float: right;
+  font-size: .9rem;
+  padding: 10px;
+}
+
+.produtos{
+  background-color: #e4e7f0;
+}
+
+.produtos .card{
+  background-color: #fff;
+}
+.produtos .card img{
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #a7bcfa;
+  height: 180px;
+}
+.produtos .card h3{
+  background-color: #fff;
+  text-align: left;
+  padding: 15px 10px;
+  color: #253c7a;
+  font-size: 1.5rem;
+}
+
+.quemsomos{
+  padding: 0 10px;
+}
+.quemsomos img{
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #00a2ff;
+}
+.quemsomos p{
+  text-align: justify;
+  line-height: 1.5;
+  margin: 20px 0 30px 0;
+  color: #646464;
+}
+.quemsomos .btn{
+  margin-top: 35px;
+}
+
+.contatos{
+  background-color: #e4e7f0;
+  text-align: center;
+}
+.contatos-txt{
+  margin-bottom: 20px;
+}
+.contatos-txt p{
+  color: #1c3780;
+  font-size: 1.1rem;
+}
+.contatos-txt span{
+  font-weight: 600;
+}
+.contatos-txt p:nth-child(1){
+  color: #272727;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.menu-contatos{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.menu-contatos a{
+  margin: 5px 0;
+  color: #264390;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-contatos a span{
+  color: #1c3780;
+  font-size: 1.3rem;
+  margin-right: 6px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.form h4{
+  font-size: .9rem;
+  text-align: left;
+  color: #1c3780;
+}
+.form input, select, textarea{
+  margin: 4px 0;
+  padding: 8px 12px;
+  border: none;
+  background-color: #304688;
+  color: #fff;
+  border-radius: 8px;
+  outline: #00a2ff;
+}
+::-webkit-input-placeholder {
+  color: #fdfcfc79;
+}
+.btn-form{
+  text-align: right;
+}
+.form .btn{
+  background-color: #272727;
+  align-self: flex-start;
+}
+
+.endereco{
+  text-align: center;
+  color: #6a7fc0;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.mapa iframe{
+  width: 100%;
+  height: 230px;
+}
+
+.footer{
+  background-color: #1c3780; 
+}
+.footer .center{
+  padding: 25px 10px;
+}
+.menu-titulo{
+  color: #dadde4;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.menu-titulo::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #6a7fc0;
+  top: 21px;
+}
+.footer-menu a{
+  color: #e7edfd;
+  text-transform: uppercase;
+  padding: 3px 0;
+  display: block;
+}
+.footer-rs ul{
+  display: flex;
+}
+.footer-rs a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: #f6f8ff;
+  margin-right: 6px;
+  color: #1c3780;
+  border-radius: 5px;
+}
+.footer-rs span{
+  font-size: 1.3rem;
+}
+.footer-txt{
+  background-color: #0c1735;
+  padding: 15px 0;
+}
+.footer-txt p{
+  color: #f6f8ff;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+.footer-txt p:nth-child(2){
+  font-size: .7rem;
+  color: #d8d8d8;
+}
+.footer-txt a{
+  color: #a7bcfa;
+}
+
+.btn-whatsapp{
+  position: fixed;
+  bottom: 10%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
+  background-color: #25a019;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .5;
+  transition: all .5s;
+}
+.btn-whatsapp:hover{
+  opacity: 1;
+}
+.btn-whatsapp span{
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+
