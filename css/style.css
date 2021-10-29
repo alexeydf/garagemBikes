@@ -182,12 +182,14 @@ html{
 
 .produtos .card{
   background-color: #fff;
+  border: none;
 }
 .produtos .card img{
   width: 100%;
   object-fit: cover;
   border-bottom: 3px solid #a7bcfa;
   height: 180px;
+  padding: 18px;
 }
 .produtos .card h3{
   background-color: #fff;
